@@ -2,8 +2,11 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
+}
+#pqlu{
+    background-color: #FE83C6;
+    justify-content: center;
 }
 #homebar--img{
     max-width: 125px;
@@ -33,7 +36,7 @@ h3{
 .homebar--items--list{
     display: flex;
     flex-direction: row;
-    font-size: 15px;
+    
 }
     
 a{
@@ -45,9 +48,11 @@ li{
     cursor: pointer;
 }
 a:hover{
-    color: rgb(173, 172, 172);
+    color: rgb(255, 238, 255);
 }
 .homebar--screen{
+    
+    background-color: #FE83C6;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -64,16 +69,21 @@ a:hover{
 }
 .figs{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer{
+    background-color: #FE83C6;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .section{
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.section2{
-    margin-top: 90px;
-    margin-bottom: 30px;
 }
 .fleximage{
     width: 400px;
@@ -82,6 +92,4 @@ a:hover{
 .all{
     display: flex;
     flex-wrap: w;
-}
-.contrato{
 }
