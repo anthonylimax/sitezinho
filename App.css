@@ -6,29 +6,36 @@
     font-family: 'Poppins', sans-serif;
 }
 #homebar--img{
-    width: 200px;
+    max-width: 125px;
+    width: 100%;
     margin-left: 15px;
     border-radius: 10px;
+}
+h1{
+    font-size: 1rem;
 }
 h2{
     color: rgb(120, 120, 120);
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 0.5rem;
 }
 .h{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 0.5rem;
 }
 h3{
     text-align: center;
+    font-size: 0.5rem;
 }
 .homebar--items--list{
     display: flex;
     flex-direction: row;
+    font-size: 15px;
 }
+    
 a{
     text-decoration: none;
     color: black;
@@ -66,22 +73,15 @@ a:hover{
 }
 .section2{
     margin-top: 90px;
-}
-.nav-link{
-    animation: ease-in 100ms;
+    margin-bottom: 30px;
 }
 .fleximage{
-    width: 100%;
+    width: 400px;
     max-width: 900px;
-    object-fit: cover;
-    object-position: center;
 }
 .all{
     display: flex;
     flex-wrap: w;
 }
 .contrato{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
